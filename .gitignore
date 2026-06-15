@@ -22,3 +22,7 @@ Thumbs.db
 .idea/
 .vscode/
 .claude/
+
+# deck build deps
+deck/node_modules/
+deck/package-lock.json
