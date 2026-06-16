@@ -28,3 +28,8 @@ deck/node_modules/
 deck/package-lock.json
 deck/loprofile/
 deck/*.pdf
+docbuild/node_modules/
+docbuild/package-lock.json
+docbuild/lo/
+docbuild/*.pdf
+docbuild/*.png
