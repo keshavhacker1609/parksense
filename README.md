@@ -2,6 +2,9 @@
 
 **Parking-induced congestion intelligence for traffic-enforcement command centres.**
 
+**Live:** https://parksense-e1w1.onrender.com · **Full documentation:** [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md)
+**Team:** Keshav Singla · Aadya Jain · Purva Jain · Shravani Singh
+
 Most parking-violation tools stop at detection — they plot where tickets were
 issued. The violations in this dataset are *already* labelled, so detection is a
 solved problem. The open question, and the one enforcement teams actually act
