@@ -23,7 +23,7 @@ let s = p.addSlide(); bg(s);
 s.addImage({ path: SHOT + "01_command_heatmap.png", x: 0, y: 0, w: 13.333, h: 7.5, sizing: { type: "cover", w: 13.333, h: 7.5 } });
 s.addShape(p.ShapeType.rect, { x: 0, y: 0, w: 13.333, h: 7.5, fill: { color: "0A0D10", transparency: 32 } });
 s.addShape(p.ShapeType.rect, { x: 0, y: 4.25, w: 13.333, h: 3.25, fill: { color: BG, transparency: 12 } });
-s.addText("PARKSENSE", { x: 0.7, y: 4.55, w: 12, h: 0.8, fontFace: HF, fontSize: 50, color: FG, bold: true, charSpacing: 1 });
+s.addText("PARKSENSE", { x: 0.7, y: 4.5, w: 12, h: 0.95, fontFace: HF, fontSize: 50, color: FG, bold: true, charSpacing: 1 });
 s.addText("Congestion Impact Scoring for Targeted Parking Enforcement",
   { x: 0.72, y: 5.5, w: 12, h: 0.5, fontFace: BODY, fontSize: 19, color: AMBER });
 s.addText("Turning 298,450 Bengaluru parking-violation records into a ranked enforcement decision tool.",

@@ -1,0 +1,526 @@
+{
+  "date_range": {
+    "start": "2023-11-09T19:11:46+00:00",
+    "end": "2024-04-08T17:30:46+00:00",
+    "timezone": "Asia/Kolkata"
+  },
+  "totals": {
+    "incidents": 298450,
+    "violations": 348455,
+    "distinct_vehicles": 231890,
+    "distinct_stations": 54,
+    "distinct_cells_r9": 2534
+  },
+  "peak_hours": [
+    4,
+    5,
+    8,
+    9,
+    10,
+    11
+  ],
+  "h3_resolution_default": 9,
+  "h3_resolutions_allowed": [
+    8,
+    9,
+    10
+  ],
+  "violation_types": [
+    {
+      "name": "WRONG PARKING",
+      "count": 164977
+    },
+    {
+      "name": "NO PARKING",
+      "count": 139050
+    },
+    {
+      "name": "PARKING IN A MAIN ROAD",
+      "count": 23943
+    },
+    {
+      "name": "DEFECTIVE NUMBER PLATE",
+      "count": 7848
+    },
+    {
+      "name": "PARKING ON FOOTPATH",
+      "count": 3757
+    },
+    {
+      "name": "PARKING NEAR BUSTOP/SCHOOL/HOSPITAL ETC",
+      "count": 2403
+    },
+    {
+      "name": "DOUBLE PARKING",
+      "count": 2037
+    },
+    {
+      "name": "PARKING NEAR ROAD CROSSING",
+      "count": 1687
+    },
+    {
+      "name": "REFUSE TO GO FOR HIRE",
+      "count": 887
+    },
+    {
+      "name": "PARKING NEAR TRAFFIC LIGHT OR ZEBRA CROSS",
+      "count": 525
+    },
+    {
+      "name": "PARKING OPPOSITE TO ANOTHER PARKED VEHICLE",
+      "count": 486
+    },
+    {
+      "name": "USING BLACK FILM/OTHER MATERIALS",
+      "count": 248
+    },
+    {
+      "name": "PARKING OTHER THAN BUS STOP",
+      "count": 242
+    },
+    {
+      "name": "DEMANDING EXCESS FARE",
+      "count": 240
+    },
+    {
+      "name": "WITHOUT SIDE MIRROR",
+      "count": 47
+    },
+    {
+      "name": "H T V PROHIBITED",
+      "count": 31
+    },
+    {
+      "name": "OBSTRUCTING DRIVER",
+      "count": 16
+    },
+    {
+      "name": "AGAINST ONE WAY/NO ENTRY",
+      "count": 9
+    },
+    {
+      "name": "FAIL TO USE SAFETY BELTS",
+      "count": 8
+    },
+    {
+      "name": "VIOLATING LANE DISIPLINE",
+      "count": 5
+    },
+    {
+      "name": "RIDER NOT WEARING HELMET",
+      "count": 2
+    },
+    {
+      "name": "2W/3W - USING MOBILE PHONE",
+      "count": 2
+    },
+    {
+      "name": "OTHER - USING MOBILE PHONE",
+      "count": 1
+    },
+    {
+      "name": "CARRYING LENGHTY MATERIAL",
+      "count": 1
+    },
+    {
+      "name": "JUMPING TRAFFIC SIGNAL",
+      "count": 1
+    },
+    {
+      "name": "U TURN PROHIBITED",
+      "count": 1
+    },
+    {
+      "name": "STOPING ON WHITE/STOP LINE",
+      "count": 1
+    }
+  ],
+  "vehicle_types": [
+    {
+      "name": "SCOOTER",
+      "count": 94856
+    },
+    {
+      "name": "CAR",
+      "count": 88870
+    },
+    {
+      "name": "MOTOR CYCLE",
+      "count": 40811
+    },
+    {
+      "name": "PASSENGER AUTO",
+      "count": 37813
+    },
+    {
+      "name": "MAXI-CAB",
+      "count": 11372
+    },
+    {
+      "name": "LGV",
+      "count": 8255
+    },
+    {
+      "name": "GOODS AUTO",
+      "count": 2934
+    },
+    {
+      "name": "MOPED",
+      "count": 2199
+    },
+    {
+      "name": "PRIVATE BUS",
+      "count": 1633
+    },
+    {
+      "name": "VAN",
+      "count": 1466
+    },
+    {
+      "name": "TEMPO",
+      "count": 1368
+    },
+    {
+      "name": "BUS (BMTC/KSRTC)",
+      "count": 1281
+    },
+    {
+      "name": "HGV",
+      "count": 1144
+    },
+    {
+      "name": "LORRY/GOODS VEHICLE",
+      "count": 1122
+    },
+    {
+      "name": "JEEP",
+      "count": 913
+    },
+    {
+      "name": "OTHERS",
+      "count": 895
+    },
+    {
+      "name": "TOURIST BUS",
+      "count": 379
+    },
+    {
+      "name": "SCHOOL VEHICLE",
+      "count": 378
+    },
+    {
+      "name": "TANKER",
+      "count": 260
+    },
+    {
+      "name": "FACTORY BUS",
+      "count": 238
+    },
+    {
+      "name": "MINI LORRY",
+      "count": 199
+    },
+    {
+      "name": "TRACTOR",
+      "count": 64
+    }
+  ],
+  "stations": [
+    {
+      "name": "Upparpet",
+      "count": 34468
+    },
+    {
+      "name": "Shivajinagar",
+      "count": 28044
+    },
+    {
+      "name": "Malleshwaram",
+      "count": 22200
+    },
+    {
+      "name": "HAL Old Airport",
+      "count": 20819
+    },
+    {
+      "name": "City Market",
+      "count": 17646
+    },
+    {
+      "name": "Vijayanagara",
+      "count": 14652
+    },
+    {
+      "name": "Rajajinagar",
+      "count": 10998
+    },
+    {
+      "name": "Kodigehalli",
+      "count": 10916
+    },
+    {
+      "name": "Magadi Road",
+      "count": 8558
+    },
+    {
+      "name": "Jeevanbheemanagar",
+      "count": 6736
+    },
+    {
+      "name": "K.R. Pura",
+      "count": 6546
+    },
+    {
+      "name": "Halasuru Gate",
+      "count": 6294
+    },
+    {
+      "name": "Mahadevapura",
+      "count": 6187
+    },
+    {
+      "name": "Chikkajala",
+      "count": 5834
+    },
+    {
+      "name": "HSR Layout",
+      "count": 5018
+    },
+    {
+      "name": "Bellandur",
+      "count": 4964
+    },
+    {
+      "name": "High ground",
+      "count": 4951
+    },
+    {
+      "name": "Byatarayanapura",
+      "count": 4555
+    },
+    {
+      "name": "Electronic City",
+      "count": 4333
+    },
+    {
+      "name": "Pulikeshinagar(F.Town)",
+      "count": 4136
+    },
+    {
+      "name": "Halasur",
+      "count": 4011
+    },
+    {
+      "name": "Jayanagara",
+      "count": 3813
+    },
+    {
+      "name": "Chamarajpet",
+      "count": 3795
+    },
+    {
+      "name": "Banaswadi",
+      "count": 3759
+    },
+    {
+      "name": "Basavanagudi",
+      "count": 3604
+    },
+    {
+      "name": "Ashok Nagar",
+      "count": 3524
+    },
+    {
+      "name": "Adugodi",
+      "count": 3332
+    },
+    {
+      "name": "Cubbon Park",
+      "count": 3255
+    },
+    {
+      "name": "Hebbala",
+      "count": 3209
+    },
+    {
+      "name": "Wilson Garden",
+      "count": 3108
+    },
+    {
+      "name": "Sheshadripuram",
+      "count": 3090
+    },
+    {
+      "name": "Mico Layout",
+      "count": 2588
+    },
+    {
+      "name": "Yeshwanthpura",
+      "count": 2587
+    },
+    {
+      "name": "Yelahanka",
+      "count": 2440
+    },
+    {
+      "name": "Hulimavu",
+      "count": 2395
+    },
+    {
+      "name": "Whitefield",
+      "count": 2303
+    },
+    {
+      "name": "R.T. Nagar",
+      "count": 1736
+    },
+    {
+      "name": "J.P. Nagar",
+      "count": 1637
+    },
+    {
+      "name": "Madiwala",
+      "count": 1563
+    },
+    {
+      "name": "V.V.Puram (C.Pet)",
+      "count": 1556
+    },
+    {
+      "name": "Sadashivanagar",
+      "count": 1445
+    },
+    {
+      "name": "Kamakshipalya",
+      "count": 1431
+    },
+    {
+      "name": "Banashankari",
+      "count": 1202
+    },
+    {
+      "name": "Jalahalli",
+      "count": 1160
+    },
+    {
+      "name": "Jnanabharathi",
+      "count": 1063
+    },
+    {
+      "name": "Peenya",
+      "count": 974
+    },
+    {
+      "name": "Devanahalli Airport",
+      "count": 940
+    },
+    {
+      "name": "Hennuru",
+      "count": 892
+    },
+    {
+      "name": "K.G. Halli",
+      "count": 892
+    },
+    {
+      "name": "Thalagattapura",
+      "count": 870
+    },
+    {
+      "name": "K.S. Layout",
+      "count": 828
+    },
+    {
+      "name": "Chikkabanavara",
+      "count": 785
+    },
+    {
+      "name": "Kengeri",
+      "count": 464
+    },
+    {
+      "name": "No Police Station",
+      "count": 339
+    }
+  ],
+  "validation_statuses": [
+    {
+      "name": "approved",
+      "count": 115400
+    },
+    {
+      "name": "rejected",
+      "count": 49754
+    },
+    {
+      "name": "created1",
+      "count": 7044
+    },
+    {
+      "name": "processing",
+      "count": 678
+    },
+    {
+      "name": "duplicate",
+      "count": 320
+    }
+  ],
+  "cis_weights": {
+    "severity": 0.35,
+    "footprint": 0.2,
+    "density": 0.2,
+    "persistence": 0.1,
+    "peak_pressure": 0.15
+  },
+  "severity_table": {
+    "PARKING ON FOOTPATH": 5,
+    "PARKING IN A MAIN ROAD": 5,
+    "DOUBLE PARKING": 4,
+    "PARKING NEAR ROAD CROSSING": 4,
+    "PARKING NEAR BUSTOP/SCHOOL/HOSPITAL ETC": 4,
+    "PARKING NEAR TRAFFIC LIGHT OR ZEBRA CROSS": 4,
+    "PARKING OPPOSITE TO ANOTHER PARKED VEHICLE": 4,
+    "OBSTRUCTING DRIVER": 4,
+    "AGAINST ONE WAY/NO ENTRY": 3,
+    "WRONG PARKING": 3,
+    "PARKING OTHER THAN BUS STOP": 3,
+    "H T V PROHIBITED": 3,
+    "NO PARKING": 2,
+    "DEFECTIVE NUMBER PLATE": 1,
+    "USING BLACK FILM/OTHER MATERIALS": 1,
+    "WITHOUT SIDE MIRROR": 1,
+    "REFUSE TO GO FOR HIRE": 1,
+    "DEMANDING EXCESS FARE": 1
+  },
+  "footprint_table": {
+    "SCOOTER": 1.0,
+    "MOPED": 1.0,
+    "MOTOR CYCLE": 1.0,
+    "PASSENGER AUTO": 1.8,
+    "GOODS AUTO": 2.2,
+    "TEMPO": 2.6,
+    "CAR": 3.0,
+    "JEEP": 3.2,
+    "VAN": 3.4,
+    "MAXI-CAB": 3.6,
+    "OTHERS": 3.0,
+    "SCHOOL VEHICLE": 4.5,
+    "MINI LORRY": 4.5,
+    "LGV": 4.5,
+    "TRACTOR": 5.0,
+    "HGV": 6.0,
+    "LORRY/GOODS VEHICLE": 6.0,
+    "TANKER": 6.0,
+    "PRIVATE BUS": 6.5,
+    "TOURIST BUS": 6.5,
+    "FACTORY BUS": 6.5,
+    "BUS (BMTC/KSRTC)": 6.5
+  },
+  "cis_quantile_breaks": [
+    12.64,
+    25.88,
+    38.56,
+    49.82
+  ],
+  "top_cell_cis": 71.6
+}

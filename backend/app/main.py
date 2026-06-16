@@ -1,8 +1,11 @@
 """ParkSense FastAPI application."""
 from __future__ import annotations
 
+import os
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from backend.app.api.routes import router
 from backend.app.core import config as C
@@ -37,3 +40,11 @@ def health():
 @app.on_event("startup")
 def _warm():
     get_store()  # build views + load meta once at boot
+
+
+# Serve the built single-page console from the same origin (so a single
+# deployed service hosts both the API and the UI -- no CORS, one URL).
+# Falls back silently to API-only when the build is absent (local dev).
+_static = os.environ.get("PARKSENSE_STATIC", str(C.ROOT / "frontend" / "dist"))
+if os.path.isdir(_static):
+    app.mount("/", StaticFiles(directory=_static, html=True), name="ui")

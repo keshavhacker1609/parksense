@@ -1,0 +1,10 @@
+# Render.com blueprint — one service hosting the ParkSense API + console.
+# Deploy: Render Dashboard -> New -> Blueprint -> connect this repo.
+services:
+  - type: web
+    name: parksense
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeploy: true

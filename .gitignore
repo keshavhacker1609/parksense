@@ -26,3 +26,5 @@ Thumbs.db
 # deck build deps
 deck/node_modules/
 deck/package-lock.json
+deck/loprofile/
+deck/*.pdf

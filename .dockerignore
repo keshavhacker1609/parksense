@@ -1,0 +1,16 @@
+.git
+.venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+frontend/node_modules
+frontend/dist
+deck/node_modules
+deck/*.pdf
+deck/loprofile
+# never ship the 109MB raw CSV -- the runtime uses the precomputed parquet
+data/violations_raw.csv
+docs
+scripts
+.claude
+SUBMISSION.md
